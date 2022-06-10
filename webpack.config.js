@@ -9,12 +9,12 @@ var path = require('path');
 const chalk = require('chalk');
 
 // you can now delete or comment out these next lines:
-setTimeout(()=> {
-  console.log(chalk.bgYellowBright('oops... webpack.config.js isn\'t ready yet.\nNEXT: Please inspect that file now        \n'));
-  console.log(chalk.bgYellowBright('oops... webpack.config.js isn\'t ready yet.\nNEXT: Please inspect that file now        \n'));
-  console.log(chalk.bgYellowBright('oops... webpack.config.js isn\'t ready yet.\nNEXT: Please inspect that file now        \n'));
-  console.log(chalk.bgYellowBright('oops... webpack.config.js isn\'t ready yet.\nNEXT: Please inspect that file now        \n'));
-}, 2000);
+// setTimeout(()=> {
+//   console.log(chalk.bgYellowBright('oops... webpack.config.js isn\'t ready yet.\nNEXT: Please inspect that file now        \n'));
+//   console.log(chalk.bgYellowBright('oops... webpack.config.js isn\'t ready yet.\nNEXT: Please inspect that file now        \n'));
+//   console.log(chalk.bgYellowBright('oops... webpack.config.js isn\'t ready yet.\nNEXT: Please inspect that file now        \n'));
+//   console.log(chalk.bgYellowBright('oops... webpack.config.js isn\'t ready yet.\nNEXT: Please inspect that file now        \n'));
+// }, 2000);
 
 // Update this variable below to point to the folder with the file
 // that will be webpack's "entry point".
@@ -23,12 +23,12 @@ setTimeout(()=> {
 // referenced by the file. Such as: other files, npm modules, images, or css.
 // see https://webpack.js.org/concepts/dependency-graph/
 // Have this variable resolve to the "webpack-src" folder inside of "./client"
-var SRC_DIR = path.join(__dirname, 'edit this value according to the paragraph above');
+var SRC_DIR = path.join(__dirname, './client/webpack-src');
 
 // Update this next variable to point to the folder
 // where webpack will write the final bundled file.
 // Have this variable resolve to the "dist" folder inside of "./client"
-var DIST_DIR = path.join(__dirname, 'edit this value according to the paragraph above');
+var DIST_DIR = path.join(__dirname, './client/dist');
 
 
 module.exports = {

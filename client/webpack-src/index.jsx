@@ -4,9 +4,9 @@ import Image from './Image.jsx';
 
 const App = () => {
   return (
-    <>
+    <div>
       <Image />
-    </>
+    </div>
   );
 };
 

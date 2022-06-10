@@ -9,7 +9,7 @@ Babel, which is being used as a "loader" by webpack, will use these npm packages
 */
 
 {
-  "presets": []
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
 
 // After you get these values set, type "control-c" in the

@@ -5,7 +5,7 @@
   "main": "server/index.js",
   "scripts": {
     "babel-hint": "node client/dist/lib/react-babel-hint.js",
-    "react-babel": "echo 'this script, defined in package.json, needs to be replaced'",
+    "react-babel": "babel client/babel-src --out-dir client/dist/compiled --presets=@babel/preset-react --source-maps inline --watch ",
     "react-webpack": "webpack --watch",
     "start": "nodemon server/index.js"
   },
